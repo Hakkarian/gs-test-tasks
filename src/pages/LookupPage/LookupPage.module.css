@@ -1,0 +1,16 @@
+.lookup {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem; /* could be px as well */
+    width: 70rem;  
+    height: 30rem;
+}
+
+.lookup > form {
+    display: block;
+}
+
+.error {
+    color: #ff0000;
+}
